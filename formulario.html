@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ol>
+        <ol style="font-family:cursive;" style="font-size:210%;">
+    <h1 style="color:rgb(93, 93, 107);font-size: 210%;">Formulário</h1>
+
+
+<form method="post" id="fContato" action="mailto:juliagomes.far@gmail.com">
+<fieldset id="usuario"><legend> Dados Pessoais</legend>
+<p><label for="cNome">Nome:</label> <input type="text" name="tNome" id="cNome" placeholder="Nome completo"/></p>
+<p><label for="cNasc">Data de Nascimento:</label> <input type="date" name="tNasc" id="cNasc"/></p>
+<p><label for="cMail">Email:</label> <input type="email" name="tMail" id="cMail" placeholder="Digite seu email"/></p>
+<p><label for="cTel">Telefone:</label> <input type="tel" name="tTel" id="cTel" placeholder="(61)"/></p> 
+</fieldset>
+
+<fieldset id="graduacao"><legend> Dados acadêmicos</legend>
+
+    <p><label for="cCur">Curso:</label> <select name="tCur" id="cCur"> </p>
+    <option selected>ADS</option>
+    <option>GTI</option>
+    <option>TBD</option>
+    <option>TSI</option> 
+    <br/>
+    
+    <p><label for="cSem">Semestre:</label> <select name="tSem" id="cSem"> </p>
+    <p>Semestre:</p>
+    <input type="radio" name="cSem"/> 1º<br/>
+    <input type="radio" name="cSem"/> 2º<br/>
+    <input type="radio" name="cSem"/> 3º<br/>
+    <input type="radio" name="cSem"/> 4º<br/>
+    <input type="radio" name="cSem"/> 5º<br/>
+          
+
+</fieldset>
+
+<fieldset id="emprego"> Trabalha? <input type="checkbox"> </legend>
+<p><label for="cTrab">Local de trabalho</label> <input type="text" name="tTrab" id="cTrab"/><p>
+<P><label for="cMens"> Descreva sua experiência</label><br/>
+<textarea name="tMens" id="cMens" cols="65" rows="8" placeholder="Descreva aqui sua experiência"></textarea></P>
+</fieldset>
+<br>
+        <input type ="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+</ol>
+</form>
